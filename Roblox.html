@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />	
+	<title>Roblox</title>
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<meta name="robots" content="all,index,follow" />
+	<meta name="distribution" content="global" />
+	
+	<!-- Adopt website to current screen -->
+	<meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	
+	<link rel="stylesheet" href="css/style.css">
+	
+	<!-- Here we add libs for jQuery, Ajax... -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	
+	<script type="text/javascript">
+		if(screen.width > 800) { // Animate navigation
+			$(document).ready(function() {
+			// функцию скролла привязать к окну браузера
+				$(window).scroll(function(){
+					var distanceTop = $('#slideMenu').offset().top;
+					if ($(window).scrollTop() >= distanceTop)
+						$ ('nav').attr ("id", "fixed");
+					else //if ($(window).scrollTop() < distanceTop)
+						$ ('nav').attr ("id", "nav");
+				});
+			});
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<a href="Roblox.html" id="logo">
+            <span>R</span>oblox
+			
+		</a>
+		<span id="contact">
+			
+			<a href=""></a>
+		</span>
+	</header>
+	<nav>
+		<a href="/">Home</a>
+		<a href="./pewdiepie vs T-series.html">Pewdiepie vs T-series</a>
+
+		<a href="./Roblox.html">Roblox</a>
+<a href="picturesJapan.html">Pictures from Japan</a>
+	</nav>
+	<div id="slideMenu">Уроки по программированию!</div>
+	<div id="wrapper">
+		<div id="leftCol">
+			<article>
+<img src="https://images.rbxcdn.com/6c27cb9db1779888868bf7d87e6d3709.jpg">
+                <h1>Roblox</h1>
+                <p>Roblox is a massively multiplayer online and game creation system platform that allows users to design their own games and play a wide variety of different types of games created by other users. The platform hosts user-created games and virtual worlds covering a wide variety of genres, from traditional racing and role-playing games to simulations and obstacle courses.[1] As of April 2019, Roblox has over 90 million monthly active users.[2]</p>
+			</article>
+         
+		</div>
+		
+			
+			
+	<footer>
+		
+	<p class="text-alb">Made by Rares aka galusca</p>	
+	</footer>
+</body>
+</html>
